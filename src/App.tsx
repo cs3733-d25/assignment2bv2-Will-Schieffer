@@ -8,10 +8,10 @@ import "./styles/App.css";
 const App: React.FC = () => {
     return (
         <div>
-            <Title teamNumber={60} hobby1="Video Games" hobby2="" />
-            <Intro name1="Christian" name2="" />
+            <Title teamNumber={60} hobby1="Video Games" hobby2="Baking" />
+            <Intro name1="Christian" name2="Will" />
             <Hobby1 name="Christian" hobby="Video Games" imageSrc="public/Marvel Rivals.jpg" />
-            <Hobby2 name="" hobby="" imageSrc="" />
+            <Hobby2 name="Will" hobby="Baking" imageSrc="public/####.jpg" />
         </div>
     );
 };

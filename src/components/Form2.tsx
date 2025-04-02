@@ -1,6 +1,6 @@
 import React from "react";
 
-const Form1: React.FC = () => {
+const Form2: React.FC = () => {
     return (
         <form id="dish-form">
             <fieldset>
@@ -80,4 +80,4 @@ const Form1: React.FC = () => {
     );
 };
 
-export default Form1;
+export default Form2;
