@@ -4,6 +4,7 @@ const Table2: React.FC = () => {
     return (
         <table id="collapse">
             <caption>Difficulty of some of my more impressive Bakes, rated by me</caption>
+            <tbody>
             <tr>
                 <th>Name of Recipe</th>
                 <th>Time required</th>
@@ -24,6 +25,7 @@ const Table2: React.FC = () => {
                 <td>Short</td>
                 <td>1/5</td>
             </tr>
+            </tbody>
         </table>
     );
 };
