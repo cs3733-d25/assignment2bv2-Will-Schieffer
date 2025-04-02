@@ -1,0 +1,8 @@
+.styled-list {
+    list-style-type: square;
+}
+
+.styled-list .highlight {
+    color: #f39c12;
+    font-weight: bold;
+}
