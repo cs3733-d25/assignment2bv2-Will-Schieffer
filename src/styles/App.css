@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2e;
+    color: #e0e0e0;
+}
+
+h1 {
+    color: #f39c12;
+    text-align: center;
+}
+
+h2 {
+    color: #f39c12;
+}
+
+.collapse {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.collapse, .collapse th, .collapse td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+button {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
