@@ -12,6 +12,9 @@ interface Hobby2Props {
 const Hobby2: React.FC<Hobby2Props> = ({ name, hobby, imageSrc }) => {
     return (
         <section>
+            <br />
+            <hr/>
+            <br />
             <h2>{name}'s Hobby: {hobby}</h2>
             <img src={imageSrc} alt={hobby} width="640" />
             <List2 />
