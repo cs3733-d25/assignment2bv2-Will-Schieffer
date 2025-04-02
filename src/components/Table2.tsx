@@ -2,14 +2,16 @@ import React from "react";
 
 const Table2: React.FC = () => {
     return (
-        <table id="collapse">
+        <table className="collapse">
             <caption>Difficulty of some of my more impressive Bakes, rated by me</caption>
-            <tbody>
+            <thead>
             <tr>
                 <th>Name of Recipe</th>
                 <th>Time required</th>
                 <th>Difficulty of Steps</th>
             </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>Lavender Macarons</td>
                 <td>Medium</td>

@@ -6,10 +6,14 @@ const Form2: React.FC = () => {
             <fieldset>
                 <legend>Dish Information</legend>
 
+                <br />
+
                 <div className="form-group">
                     <label htmlFor="dishname">Give your dish a name:</label>
                     <input type="text" id="dishname" name="dishname" required/>
                 </div>
+
+                <br/>
 
                 <div className="form-group">
                     <fieldset>
@@ -37,6 +41,8 @@ const Form2: React.FC = () => {
                     </fieldset>
                 </div>
 
+                <br/>
+
                 <div className="form-group">
                     <fieldset>
                         <legend>Toppings</legend>
@@ -58,6 +64,8 @@ const Form2: React.FC = () => {
                     </fieldset>
                 </div>
 
+                <br/>
+
                 <div className="form-group">
                     <label htmlFor="size">How big?:</label>
                     <select id="size" name="size" required>
@@ -68,6 +76,8 @@ const Form2: React.FC = () => {
                         <option value="Large Size">Large</option>
                     </select>
                 </div>
+
+                <br/>
 
                 <div className="form-group">
                     <label htmlFor="additionalNotes">Additional Notes:</label>
