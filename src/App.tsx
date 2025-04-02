@@ -11,7 +11,7 @@ const App: React.FC = () => {
             <Title teamNumber={60} hobby1="Video Games" hobby2="Baking" />
             <Intro name1="Christian" name2="Will" />
             <Hobby1 name="Christian" hobby="Video Games" imageSrc="public/Marvel Rivals.jpg" />
-            <Hobby2 name="Will" hobby="Baking" imageSrc="public/####.jpg" />
+            <Hobby2 name="Will" hobby="Baking" imageSrc="public/Easter Cake Eaten.png" />
         </div>
     );
 };
